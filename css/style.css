@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: roboto;
+    background-color: rgba(240, 219, 163, 0.74);
+    
+}
+.button{
+    border-radius: 15px;
+    border: 5px outset grey;
+
+}
+.link{
+    text-decoration: none;
+    color: rgba(27, 32, 32, 0.753)
+ 
+   
+}
+.nav{
+    text-align: center;
+    word-spacing: 10px;
+    font-size: larger;
+    padding-top: 30px;
+ 
+    
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 200px;
+    font-size: 30px;
+    
+}
+h4{
+    
+}
+.text{
+    padding-left: 30px;
+   
+    
+    padding-right: 500px;
+}
+
+div{
+    display: inline;
+}
+
+.img{
+    text-align: center;
+}
+.descp{
+    padding-top: 30px;
+
+}
+
