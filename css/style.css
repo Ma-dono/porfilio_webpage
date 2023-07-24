@@ -7,7 +7,8 @@
 
 }
 :root{
-    --brown-color: rgb(255, 255, 255);
+    --brown-color:white
+
 }
 
 ::-webkit-scrollbar{
@@ -110,7 +111,7 @@ h1{
     
     
 }
-.part .title-descp h4{
+.part .title-descp ,h4 {
     margin-top: 10px;
     margin-bottom: 50px;
 }
@@ -133,6 +134,42 @@ margin-bottom: 20px;
 margin-top: 20px;
 padding-top: 20px;
 
+}
+.content{
+    display: flex;
+    width: 100%;
+   
+}
+.intro{
+    margin-left: 30px;
+    font-size: 25px;
+}
+.quest{ font-weight: bold;
+    margin-bottom: 6px;
+    font-size: larger;
+}
+.myname{
+    font-size: xx-large;
+font-weight: bolder;
+margin-bottom: 30px;
+
+}
+.text{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    
+}
+.para{
+    font-size: large;
+    margin-bottom: 10px
+}
+.img-about{
+    display: flex;
+    width: 60%;
+    padding: 80px;
+   
+    
 }
 
 
