@@ -25,14 +25,32 @@ body{
     background-color: white
     
 }
+.banner{
+    margin-top: 11rem;
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+}
+.text-banner{
+    display: flex;
+    width: 50%;
+    border: 1px solid black;
+    align-items: center;
+}
+ .img-banner{ 
+    display: flex;
+    width: 50%;
+   justify-content: center;
+   border: 1px solid black;
+
+}
 a{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 section,footer{
     padding-left: 4rem;
     padding-right: 4rem
 }
-
 .header-navbar{
     display: flex;
     padding-top: 1rem;
@@ -46,7 +64,6 @@ section,footer{
 }
 .header-navbar-logo{
 width: 30%;
-
 display: flex;
 justify-content: center;
 align-items: center;
@@ -81,6 +98,32 @@ h1{
     margin-left: 200px;
     font-size: 30px;
     
+}
+.part{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.part .title-descp{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    
+    
+}
+.part .title-descp h4{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.img-descp{
+    display: flex;
+    width: 50%;
+
+}
+.img-descp img{
+    margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 
