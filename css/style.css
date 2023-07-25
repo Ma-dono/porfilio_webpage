@@ -59,7 +59,8 @@ section,footer{
     width: 100%;
     top: 0;
     right: 0;
-    background-color: rgba(245, 238, 238, 0.774);
+    height: 100px;
+    background-color:  rgba(19, 71, 110, 0.596);
    
 }
 .header-navbar-logo{
@@ -67,26 +68,28 @@ width: 30%;
 display: flex;
 justify-content: center;
 align-items: center;
+
 }
 .header-navbar .header-navbar-logo img{
-    width: 100px;
+    width: 200px;
+   
+   
+   
 }
 
 
 .header-navbar .header-navbar-links{
     text-align: center;
-    word-spacing: 60px;
     font-size: larger;
     width: 70%;
-   
-    display: flex;
+   display: flex;
     justify-content: center;
     align-items: center;
    
 }
 .header-navbar .header-navbar-links a{
-    color: black;
-    margin-left: 20px;
+    color: white;
+    margin-left: 50px;
     font-weight: bolder;
 }
 .about{
@@ -108,10 +111,11 @@ h1{
     align-items: center;
     width: 50%;
     flex-direction: column;
+    font-size: large;
     
     
 }
-.part .title-descp ,h4 {
+.part .title-descp h4 {
     margin-top: 10px;
     margin-bottom: 50px;
 }
@@ -148,6 +152,8 @@ background-color: rgba(82, 134, 141, 0.705);
 .intro{
     margin-left: 30px;
     font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 .quest{ font-weight: bold;
     margin-bottom: 6px;
