@@ -125,14 +125,19 @@ h1{
     margin-bottom: 30px;
 }
 .work{
-    background-color: rgb(214, 168, 108);
+    background-color: rgba(19, 71, 110, 0.596);
+    color: beige;
 }
 .title{
  text-align: center;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-margin-bottom: 20px;
-margin-top: 20px;
-padding-top: 20px;
+font-family: fantasy;
+margin-bottom: 40px;
+margin-top: 40px;
+padding: 20px;
+color: white;
+letter-spacing: 50px;
+font-size: 50px;
+background-color: rgba(82, 134, 141, 0.705);
 
 }
 .content{
@@ -162,7 +167,9 @@ margin-bottom: 30px;
 }
 .para{
     font-size: large;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    color: rgba(77, 73, 73, 0.959);
+
 }
 .img-about{
     display: flex;
