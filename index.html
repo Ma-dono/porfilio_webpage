@@ -1,219 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Webpage</title>
+    <link rel="icon" href="images/icon.png" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="css/style.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio Webpage</title>
-  <link rel="icon" href="images/icon.png" />
-</head>
+  <body>
+    <header>
+      <nav class="header-navbar">
+        <div class="header-navbar-logo">
+          <img src="images/logo.png" alt="logo" />
+        </div>
+        <div class="header-navbar-links">
+          <a class="link" href="#">Home</a>
+          <a class="link" href="#About">About</a>
+          <a class="link" href="#Work">Work</a>
+          <a class="link" href="#Resume">Resume</a>
+          <a class="link" href="#CV">CV</a>
+          <a class="link" href="#Contact">Contact</a>
+        </div>
+      </nav>
+    </header>
 
-<body>
-  <header>
-    <nav class="header-navbar">
-      <div class="header-navbar-logo">
-        <img src="images/logo.png" alt="logo" />
-      </div>
-      <div class="header-navbar-links">
-        <a class="link" href="#">Home</a>
-        <a class="link" href="#About">About</a>
-        <a class="link" href="#Work">Work</a>
-        <a class="link" href="#Resume">Resume</a>
-        <a class="link" href="#CV">CV</a>
-        <a class="link" href="#Contact">Contact</a>
-      </div>
-    </nav>
-  </header>
+    <main>
+      <!--banner-->
+      <section class="banner">
+        <div class="img-banner">
+          <img src="images/banner1.jpg" alt=" img-banner" />
+        </div>
+        <div class="text-banner">
+          <h1>Hi There !</h1>
+          <h2>
+            Nice to meet you! I'm a Web Developer. Do you want to know about me
+            ?
+          </h2>
+          <a href="#About" class="btn">MORE</a>
+        </div>
+      </section>
+      <section class="about">
+        <!--About-->
 
-  <main>
-    <!--banner-->
-    <section class="banner">
-      <div class="img-banner">
-        <img src="images/banner1.jpg" alt=" img-banner" /> 
-      </div>
-      <div class="text-banner">
-        <h1> Hi There !</h1>
-        <h2>Nice to meet you! I'm a Web Developer. Do you want to know about me ?</h2>
-        <a href="#About" class="btn">MORE</a>
-      </div>
-      
-    </section>
-    <section class="about">
-      <!--About-->
+        <a name="About"></a>
+        <h1 class="title">ABOUT</h1>
+        <!--content's class is for the div with img's class and text's class in-->
+        <div class="content">
+          <div class="text">
+            <h4 class="intro">About me ?</h4>
+            <!--para=paragraph-->
 
-      <a name="About"></a>
-      <h1 class="title">ABOUT</h1>
-      <!--content's class is for the div with img's class and text's class in-->
-      <div class="content">
-        <div class="text">
-          <h4 class="intro">About me ?</h4>
-          <!--para=paragraph-->
-          
-          
             <div class="quest">My name:</div>
             <div class="myname">Konan Gnissan Marie-Dominique Noëllie.</div>
             <p class="para">
-          Born in Ivory
-          Coast, more precisely in the city of Daloa. This is where I will do
-          all my primary and my secondary school. With, initially the desire to
-          become a doctor surgeon, my dreams have no continuation when at the
-          Baccalaureate, I hardly obtain the grades sufficient to realize them.
-          </p>
-          <p class="para">
-            I then spent, by force of circumstance, my first year of higher
-            education in a school specializing in accounting: CPDEC (Centre de
-            Preparation aux diplomas de l'Expertise Comptable). Unfortunately, I
-            ended up not finding my happiness there and failed miserably in the
-            first exams.
-          </p>
-          <p class="para">
-            This is how my older sister, a computer scientist, enrolled me in
-            GOMYCODE's Junior Web Developer training, during the holidays
-            following the exams. And while I was not expecting it, I obviously
-            found a passion for IT in general. I then continued with a BTS in
-            computer science and a three-year engineering cycle. I also took care
-            to add to my experience other GOMYCODE training such as Coding with
-            python, Business technologies, and others.
-          </p>
-          <p class="para">
-            After being an intructor at Gomycode, i would like to devote all my
-            time to web development, graphic desing and others projetcs.
-          </p>
+              Born in Ivory Coast, more precisely in the city of Daloa. This is
+              where I will do all my primary and my secondary school. With,
+              initially the desire to become a doctor surgeon, my dreams have no
+              continuation when at the Baccalaureate, I hardly obtain the grades
+              sufficient to realize them.
+            </p>
+            <p class="para">
+              I then spent, by force of circumstance, my first year of higher
+              education in a school specializing in accounting: CPDEC (Centre de
+              Preparation aux diplomas de l'Expertise Comptable). Unfortunately,
+              I ended up not finding my happiness there and failed miserably in
+              the first exams.
+            </p>
+            <p class="para">
+              This is how my older sister, a computer scientist, enrolled me in
+              GOMYCODE's Junior Web Developer training, during the holidays
+              following the exams. And while I was not expecting it, I obviously
+              found a passion for IT in general. I then continued with a BTS in
+              computer science and a three-year engineering cycle. I also took
+              care to add to my experience other GOMYCODE training such as
+              Coding with python, Business technologies, and others.
+            </p>
+            <p class="para">
+              After being an intructor at Gomycode, i would like to devote all
+              my time to web development, graphic desing and others projetcs.
+            </p>
+          </div>
+          <div class="img-about">
+            <img src="images/img-about.jpg" alt="illustration" />
+          </div>
         </div>
-        <div class="img-about"> <img src="images/img-about.jpg" alt="illustration"></div>
-      </div>
+      </section>
+      <br />
+      <section class="work">
+        <!--Work-->
+        <a name="Work"></a>
+        <h1 class="title">WORK</h1>
+        <!--descp=description-->
+        <div class="part">
+          <div class="title-descp">
+            <h4>Free CV Webpages</h4>
+            <p class="descp">
+              CV with varied particularities. Endless designs and possibilities.
+              Suggestions in case you are unsure about what to write and more.
+            </p>
+          </div>
 
+          <div class="img-descp">
+            <img src="images/ex cv.jpg" alt="Exemple 1" />
 
-    </section>
+            <img src="images/ex cv 2.png" alt="Exemple 2" />
+          </div>
+        </div>
+
+        <div class="part2">
+          <div class="title-descp">
+            <h4>Free Quiz Webpages</h4>
+            <p class="descp">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quo
+              error laborum sint assumenda maxime, perspiciatis dolor
+              repellendus facilis, possimus in est consectetur corporis soluta
+              praesentium, adipisci perferendis odio. Similique?
+            </p>
+          </div>
+          <div class="img-descp">
+            <img src="images/ex quiz.jpg" alt=" Exemple 1" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/ex quiz 2.png" alt="" />
+          </div>
+        </div>
+
+        <div class="part">
+          <div class="title-descp">
+            <h4>Free Games Webpage</h4>
+            <p class="descp">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              debitis perspiciatis dolores. At animi accusantium adipisci fugit
+              eligendi consequatur nesciunt nisi dolorem optio, ullam neque,
+              sapiente sed praesentium soluta dicta.
+            </p>
+          </div>
+          <div class="img-descp">
+            <img src="images/ex jeux 2.jpg" alt=" Exemple" />
+          </div>
+        </div>
+      </section>
+      <br />
+      <section class="Resume">
+        <!--Resume-->
+        <a name="Resume"></a>
+        <h1 class="title">RESUME</h1> <div class="text-resume"> <p class="para">
+          Currently an instructor at Gomycode, the Company having awakened my
+          passion for IT. I have, in parallel, developed several sites such as
+          free sites of CV, Quiz, Games, ect.
+        </p>
+        <p class="para">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium
+          quia quidem est neque nisi? Adipisci ex eius voluptatum esse sunt
+          dolorem ipsa! Optio officiis, placeat consequuntur sed numquam
+          sapiente quod?
+        </p>
+        <p class="para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+          corrupti, asperiores cupiditate neque ut odio tenetur sunt fugiat
+          architecto, adipisci eum? Ea consectetur voluptates possimus sunt
+          officia, molestias voluptatibus rem?
+        </p></div>   <div class="img-resume"></div>     
+        
+
+        
+      </section>
+      <br />
+      <section class="CV">
+        <!--CV-->
+        <a name="CV"></a>
+        <h1 class="title">CV</h1> <div class="img-cv"> <img src="images/Cv.png" alt="Mon CV" /></div>
+        <div class="text-cv"></div>
+      </section>
+      <br />
+      <section class="contact">
+        <!--Contact-->
+        <a name="Contact"></a>
+        <h1 class="title">CONTACT</h1>
+        <br />
+        <!--form for visitor contact-->
+
+        <form action="#">
+          <label for=""></label>
+          <input type="text" name="Name" required placeholder="First name" />
+          <br />
+          <br />
+          <label for=""></label>
+          <input
+            type="text"
+            name="SecondsNames"
+            required
+            placeholder="Others names"
+          />
+          <br />
+          <br />
+          <label for=""></label>
+          <input type="number" name="Tel" required placeholder="Tel" />
+          <br />
+          <br />
+          <label for=""></label>
+          <input type="date" name="BirthDate" />
+          <br />
+          <br />
+          <label for=""></label>
+          <input
+            type="email"
+            name="Email"
+            required
+            placeholder="Adresse email"
+          />
+          <br />
+          <br />
+          <textarea
+            name="message"
+            cols="50"
+            rows="10"
+            placeholder="What do you think ?"
+          ></textarea>
+          <br />
+          <br />
+          <button type="submit" class="btn">Submit</button>
+          <br />
+          <br />
+          <button type="reset" class="btn">Start again</button>
+        </form>
+      </section>
+      <br />
+    </main>
     <br />
-    <section class="work">
-      <!--Work-->
-      <a name="Work"></a>
-      <h1 class="title">WORK</h1>
-      <!--descp=description-->
-      <div class="part">
-        <div class="title-descp">
-          <h4>Free CV Webpages</h4>
-          <p class="descp">
-            CV with varied particularities. Endless designs and possibilities.
-            Suggestions in case you are unsure about what to write and more.
-          </p>
-        </div>
-
-        <div class="img-descp">
-          <img src="images/ex cv.jpg" alt="Exemple 1" />
-
-          <img src="images/ex cv 2.png" alt="Exemple 2" />
-        </div>
-      </div>
-
-      <div class="part">
-        <div class="title-descp">
-          <h4>Free Quiz Webpages</h4>
-          <p class="descp">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quo
-            error laborum sint assumenda maxime, perspiciatis dolor repellendus
-            facilis, possimus in est consectetur corporis soluta praesentium,
-            adipisci perferendis odio. Similique?
-          </p>
-        </div>
-        <div class="img-descp">
-          <img src="images/ex quiz.jpg" alt=" Exemple 1" />
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <img src="images/ex quiz 2.png" alt="" />
-        </div>
-      </div>
-
-      <div class="part">
-        <div class="title-descp">
-          <h4>Free Games Webpage</h4>
-          <p class="descp">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-            debitis perspiciatis dolores. At animi accusantium adipisci fugit
-            eligendi consequatur nesciunt nisi dolorem optio, ullam neque,
-            sapiente sed praesentium soluta dicta.
-          </p>
-        </div>
-        <div class="img-descp">
-          <img src="images/ex jeux 2.jpg" alt=" Exemple" />
-        </div>
-      </div>
-    </section>
     <br />
-    <section class="Resume">
-      <!--Resume-->
-      <a name="Resume"></a>
-      <h1 class="title">RESUME</h1>
-      <p class="">
-        Currently an instructor at Gomycode, the Company having awakened my
-        passion for IT. I have, in parallel, developed several sites such as
-        free sites of CV, Quiz, Games, ect.
+    <footer>
+      <p>
+        Tel: 0777121964
+        <br />
+        Email: marienoelliekonan@gmail.com
+        <br />
+        GithubProfile: Ma-dono
       </p>
-    </section>
-    <br />
-    <section class="CV">
-      <!--CV-->
-      <a name="CV"></a>
-      <h1 class="title">CV</h1>
-      <img src="images/Cv.png" alt="Mon CV" />
-    </section>
-    <br />
-    <section class="contact">
-      <!--Contact-->
-      <a name="Contact"></a>
-      <h1 class="title">CONTACT</h1>
-      <br />
-      <!--form for visitor contact-->
-
-      <form action="#">
-        <label for=""></label>
-        <input type="text" name="Name" required placeholder="First name" />
-        <br />
-        <br />
-        <label for=""></label>
-        <input type="text" name="SecondsNames" required placeholder="Others names" />
-        <br />
-        <br />
-        <label for=""></label>
-        <input type="number" name="Tel" required placeholder="Tel" />
-        <br />
-        <br />
-        <label for=""></label>
-        <input type="date" name="BirthDate" />
-        <br />
-        <br />
-        <label for=""></label>
-        <input type="email" name="Email" required placeholder="Adresse email" />
-        <br />
-        <br />
-        <textarea name="message" cols="50" rows="10" placeholder="What do you think ?"></textarea>
-        <br />
-        <br />
-        <button type="submit" class="btn ">Submit</button>
-        <br />
-        <br />
-        <button type="reset" class="btn ">Start again</button>
-      </form>
-    </section>
-    <br />
-  </main>
-  <br />
-  <br />
-  <footer>
-    <p>
-      Tel: 0777121964
-      <br />
-      Email: marienoelliekonan@gmail.com
-      <br />
-      GithubProfile: Ma-dono
-    </p>
-    <img src="images/téléchargement (3).png" alt="gomycodelogo" height="30" />
-    GOMYCODE Checkpoint
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-    crossorigin="anonymous"></script>
-</body>
-
+      <img src="images/téléchargement (3).png" alt="gomycodelogo" height="30" />
+      GOMYCODE Checkpoint
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

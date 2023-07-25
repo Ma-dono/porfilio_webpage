@@ -144,6 +144,25 @@ h1{
     margin-top: 10px;
     margin-bottom: 50px;
 }
+ .part2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.part2 .title-descp{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    font-size: large;
+    
+    
+}
+.part2 .title-descp h4 {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
 .img-descp{
     display: flex;
     width: 50%;
@@ -223,7 +242,28 @@ margin-bottom: 30px;
   }  ;
 
 }
+.text-resume{ 
+    padding-right: 70px;
+}
+.CV{
+    background-color: rgba(19, 71, 110, 0.596);
+    color: beige;
 
+}
+.CV img{
+    margin-left: 350px;
+}
+input, textarea{
+    height: 40px;
+    margin-left: 30px;
+}
+.contact .btn{
+    margin-left: 30px;
+}
+textarea{
+    width: 500px;
+    height: 100px;
+}
 
 
 
