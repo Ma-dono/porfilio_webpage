@@ -7,7 +7,8 @@
 
 }
 :root{
-    --brown-color:white
+    --brown-color:white;
+    --primary-color: rgba(19, 71, 110, 0.835);
 
 }
 
@@ -16,10 +17,10 @@
     height: 1px;
 }
 ::-webkit-scrollbar-track{
-    background-color: rgb(223, 170, 170);
+    background-color: rgb(250, 250, 250);
 }
 ::-webkit-scrollbar-thumb{
-    background-color: aqua;
+    background-color: var(--primary-color);
 }
 body{
     font-family: roboto;
@@ -82,14 +83,14 @@ section,footer{
 }
 .header-navbar{
     display: flex;
-    padding-top: 1rem;
+    padding-top: 0.4rem;
     margin-bottom: 2.5rem;
     position: fixed;
     width: 100%;
     top: 0;
     right: 0;
     height: 100px;
-    background-color:  rgba(19, 71, 110, 0.596);
+    background-color:  rgba(19, 71, 110, 0.835);
    
 }
 .header-navbar-logo{
@@ -286,20 +287,30 @@ form{
 input{
     width: 70%;
     height: 50px;
-    margin-left: 30px;
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    &::placeholder{
-        font-size: 17px;
-        font-weight: bolder;
-    }
 }
 
 textarea{
     width: 70%;
-    margin-left: 30px;
-    margin-bottom: 10px;
+}
+
+.field{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0,0,0);
+    border-radius: 1rem;
+    background-color: white;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: 0.3s;
+}
+
+.field:hover{
+    background-color: rgba(161, 210, 247, 0.378);
+}
+
+.field:focus{
+    background-color: #fff;
+    border: 2px solid rgba(19, 71, 110, 0.596);
 }
 
 .contact .btn{
