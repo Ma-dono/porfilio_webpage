@@ -254,17 +254,34 @@ margin-bottom: 30px;
     margin-left: 350px;
 }
 input, textarea{
+    width: 70%;
     height: 40px;
     margin-left: 30px;
+    margin-bottom: 10px;
+    
 }
 .contact .btn{
     margin-left: 30px;
+    
 }
 textarea{
     width: 500px;
     height: 100px;
 }
+.dataperso{
+    color:  rgba(77, 73, 73, 0.959); 
+}
+.dataperso h2{
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: Lobster;
+}
 
-
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
 
 
